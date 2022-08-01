@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicoding Project</title>
+  </head>
+  <body onload="clock()">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <div class="dropdown">
+            <li>
+              <button onclick="dropdown()" class="dropbtn">Click Me!</button>
+            </li>
+            <div id="dropdown" class="dropdown-content">
+              <a href="#about">About Me</a>
+              <a href="#education">Education</a>
+              <a href="#hobbies">Hobbies</a>
+              <a href="#exp">Experience</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="welcome" id="home">
+        <h1>WELCOME TO MY SITE</h1>
+      </div>
+      <div class="container">
+        <div class="flex-column">
+          <div class="flex-row">
+            <div>
+              <div id="about" class="box">
+                <article>
+                  <h1>About Me</h1>
+                  <p>
+                    Hello! I'm Gananta, a college student from STMIK Primakara.
+                    Today I joined bangkit and now they gave me the assignment
+                    to create a simple website. I'm so excited to finish this
+                    assessment because I have already learned how to build
+                    websites. I thought this assessment was easy, but
+                    unfortunately, they restricted me to use frameworks such as
+                    bootstraps or vue, so i will understanding more about
+                    basics.
+                  </p>
+                </article>
+              </div>
+              <div id="education" class="box content">
+                <article>
+                  <h1>Education</h1>
+                  <div class="flex-column">
+                    <div class="flex-row">
+                      <div class="box2" style="text-align: center">
+                        <h4>Elementary School</h4>
+                        <img src="assets/img/sd.png" alt="" />
+                        <p>SD Negeri 6 Dalung<br />2008-2013</p>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <h4>Junior High School</h4>
+                        <img src="assets/img/smp.png" alt="" />
+                        <p>SMP Negeri 2 Kuta Utara<br />2013-2016</p>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <h4>Senior High School</h4>
+                        <img src="assets/img/smk.png" alt="" />
+                        <p>SMK Negeri 1 Denpasar<br />2016-2019</p>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <h4>College</h4>
+                        <img src="assets/img/college.png" alt="" />
+                        <p>STMIK Primakara<br />2009-Present</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div id="hobbies" class="box content">
+                <article>
+                  <h1>Hobbies</h1>
+                  <div class="flex-column">
+                    <div class="flex-row">
+                      <div class="box2" style="text-align: center">
+                        <img src="assets/img/gaming.png" alt="" />
+                        <h1>Gaming</h1>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <img src="assets/img/sport.png" alt="" />
+                        <h1>Sports</h1>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <img src="assets/img/travel.png" alt="" />
+                        <h1>Travelling</h1>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <img src="assets/img/online-learning.png" alt="" />
+                        <h1>Online Courses</h1>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div id="exp" class="box content">
+                <article>
+                  <h1>Experience</h1>
+                  <div class="flex-column">
+                    <div class="flex-row">
+                      <div class="box2" style="text-align: center">
+                        <h1>Bali Startup Camp 2020</h1>
+                        <img src="assets/img/bsc.jpg" alt="" />
+                        <p>Technical Committee</p>
+                      </div>
+                      <div class="box2" style="text-align: center">
+                        <h1>Bali Startup Expo 2021</h1>
+                        <img src="assets/img/expo.jpg" alt="" />
+                        <p>Technical Committee</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <aside class="box">
+              <h1>Contact</h1>
+              <center>
+                <img src="assets/img/person.jpeg" alt="" />
+              </center>
+              <br />
+              <table>
+                <tr>
+                  <td>Email</td>
+                  <td>:</td>
+                  <td>gananta65@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Name</td>
+                  <td>:</td>
+                  <td>I Made Gananta</td>
+                </tr>
+                <tr>
+                  <td>Phone</td>
+                  <td>:</td>
+                  <td>+628993386346</td>
+                </tr>
+                <tr>
+                  <td>Birth</td>
+                  <td>:</td>
+                  <td>24 February 2001</td>
+                </tr>
+              </table>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; 2022 I Made Gananta <span id="jam"></span></footer>
+  </body>
+  <script src="assets/js/style.js"></script>
+</html>
